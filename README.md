@@ -21,6 +21,7 @@ This project demonstrates the ability to design visually appealing and functiona
    ```bash
    git clone https://github.com/leewaithaka/a-product-landing-page.git
 2.Open index.html in a web browser to view the page.
+
 Live Demo
 
 Check out the live page here:
