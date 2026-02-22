@@ -25,9 +25,8 @@ Live Demo
 
 Check out the live page here:
 https://leewaithaka.github.io/a-product-landing-page/
-Author / Contact
 
+Author / Contact
 Lee Waithaka Komu
 LinkedIn: https://www.linkedin.com/in/lee-komu-674459283/
-
 Email: leekomu4@gmail.com
