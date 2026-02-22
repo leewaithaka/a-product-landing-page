@@ -1,43 +1,93 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Your Product Landing Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lee Waithaka Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="header">
-        <img id="header-img" src="your-logo.png" alt="Your Logo">
-        <nav id="nav-bar">
-            <a class="nav-link" href="#features">Features</a>
-            <a class="nav-link" href="#pricing">Pricing</a>
-            <a class="nav-link" href="#contact">Contact</a>
-        </nav>
-    </header>
 
-    <section id="features">
-        <h2>Features</h2>
-        <!-- Feature content here -->
-    </section>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">Lee Waithaka</div>
+    <ul>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-    <section id="pricing">
-        <h2>Pricing</h2>
-        <!-- Pricing information here -->
-    </section>
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Explore my projects and skills in Python, Web Development, and Data Analysis.</p>
+    <a href="#projects" class="btn">View Projects</a>
+  </header>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <iframe id="video" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
-        <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
-            <label for="email">Enter your email:</label>
-            <input type="email" id="email" name="email" placeholder="example@example.com" required>
-            <input type="submit" id="submit" value="Submit">
-        </form>
-    </section>
+  <!-- Features Section -->
+  <section id="features">
+    <h2>Skills & Expertise</h2>
+    <div class="feature-list">
+      <div class="feature">
+        <h3>Python Programming</h3>
+        <p>Data analysis, machine learning, and automation scripts.</p>
+      </div>
+      <div class="feature">
+        <h3>Web Development</h3>
+        <p>HTML, CSS, JavaScript, and responsive web design.</p>
+      </div>
+      <div class="feature">
+        <h3>Data Analysis</h3>
+        <p>Statistics, Pandas, NumPy, visualization, and reporting.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Highlighted Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <h3>Demographic Data Analyzer</h3>
+        <p>Statistical analysis project using Python and Pandas.</p>
+        <a href="https://github.com/leewaithaka/Demographic-data-analyzer" class="btn">View Repo</a>
+      </div>
+      <div class="project">
+        <h3>Sea Level Predictor</h3>
+        <p>Time-series analysis project predicting global sea levels.</p>
+        <a href="https://github.com/leewaithaka/boilerplate-sea-level-predictor" class="btn">View Repo</a>
+      </div>
+      <div class="project">
+        <h3>Product Landing Page</h3>
+        <p>This live portfolio page showcasing my work.</p>
+        <a href="https://leewaithaka.github.io/a-product-landing-page/" class="btn">Live Demo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Reach out via email or LinkedIn:</p>
+    <form>
+      <input type="email" placeholder="Your email" required>
+      <textarea placeholder="Your message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/lee-komu-674459283/" target="_blank">View Profile</a></p>
+    <p>Email: leekomu4@gmail.com</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Lee Waithaka Komu</p>
+  </footer>
+
 </body>
 </html>
+ 
+
 
 
 
